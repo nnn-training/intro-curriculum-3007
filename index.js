@@ -1,4 +1,17 @@
 'use strict';
 
+/**
+ * seventeenモジュールの作成
+ * @param {num} num
+ */
+
+function isMultipleOfSeventeen(num){
+    if(num % 17 === 0){
+        return num;
+    }
+    
+}
+
 module.exports = {
+    isMultipleOfSeventeen
 }
