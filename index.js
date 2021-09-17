@@ -3,7 +3,7 @@
  * @param {number} num
  */
 function isMultipleOfSeventeen(num) {
-    returnnum % 17 === 0;
+    return num % 17 === 0;
 }
 
 module.exports = {
