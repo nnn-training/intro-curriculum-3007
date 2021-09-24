@@ -6,16 +6,20 @@
  * @param {integer} integer
  */
 // seventeen.isMultipleOfSeventeen
-const integers = [];
-function isMultipleOfSeventeen(integer) {
-    for (const i = 0; i <= integers.length; i++) {
-        if (integers[i] % 17 !== 0) {
-            integers[i].splice(integers[i], 1);
-        }
-    }
+// const integers = [];
+
+// function isMultipleOfSeventeen(integer) {
+//     integers.push(a);
+//     for (const i = 0; i < integers.length; i++) {
+//         if (integers[i] % 17 !== 0) {
+//             integers.splice(integers[i], 1);
+//         }
+//     }
+// }
+
+function isMultipleOfSeventeen(num){
+    return num % 17 === 0;
 }
-
-
 
 
 module.exports = {
