@@ -3,9 +3,8 @@
  * 17の倍数である場合 true を返す
  * @param {number} num
  */
-const numbers = [];
-function isMultipleOfSeventeen(){
-    numbers.filter(num => num % 17 === 0)
+function isMultipleOfSeventeen(num){
+    return num % 17 === 0;
 }
 
 module.exports = {
