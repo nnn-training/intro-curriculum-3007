@@ -5,10 +5,11 @@
  * @param {number} num
  */
 function isMultipleOfSeventeen(num) {
-    if (num % 17 !== 0){
-        return false;
-    }
-    return true;
+    // if (num % 17 !== 0){
+    //     return false;
+    // }
+    // return true;
+    return num % 17 === 0;
 }
 
 
