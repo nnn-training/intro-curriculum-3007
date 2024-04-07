@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.22.19/bin/yarn.js test
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOSYS: function not implemented, fstat
+
+npm manifest: 
+  {
+    "name": "seventeen",
+    "version": "1.0.0",
+    "description": "17の倍数であるかを判定する関数isMultipleOfSeventeenを提供する",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test.js"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
