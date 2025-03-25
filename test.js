@@ -1,4 +1,4 @@
-'use strict';
+  'use strict';
 const seventeen = require('./index.js');
 const assert = require('node:assert');
 const test = require('node:test');
